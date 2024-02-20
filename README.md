@@ -26,27 +26,17 @@ NOTE: Each collection has unique configuration and paramater requirements. For d
 
 1. Sign up for a [Postman](https://www.postman.com/) account if necessary. 
 2. Download and install the [Postman Client](https://www.getpostman.com/apps).
-3. Open Postman and create a new [Workspace](https://learning.postman.com/docs/getting-started/first-steps/creating-your-first-workspace/) in Postman
-4.  Download each JSON file from the [Postman Collections]() folder in Github
-* If you would like avoid downloading each JSON file individually, naviagate to the Duo API Playgroung home page and download the entire repository
-5. Import each collection JSON file into Postman
-7. 
+3. Open Postman and create a new [Workspace](https://learning.postman.com/docs/getting-started/first-steps/creating-your-first-workspace/) in Postman.
+4.  Download each JSON file from the [Postman Collections]() folder in Github.
+      * If you would like to avoid downloading each JSON file individually, naviagate to Home page and download the entire repository
+5. Import each collection JSON file and the global variables JSON file into Postman.
+7. Refer to the collection specific documentation in Postman for next steps.
 
-* Now generate an API access token:
-  1. Hit `Send` to generate a Cisco Secure Access API access token.
-  1. Add your new access token token to the `AccessToken` variable in the `Cisco Secure Access` Postman environment.
+## 🚩 Disclaimer
+I'm  excited you're exploring the Duo API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
+While designed to be as user-friendly and self-service as possible, I acknowledge that users may have questions or face challenges. I encourage you to explore, learn, and troubleshoot independently, as our team's capacity to offer support is currently limited. I also promote a community-driven approach, inviting users of the workspace to share their enhancements, insights, and knowledge with others in the MSP and broder Cisco community.
 
-**Note:** Cloud Security API access tokens are valid for up to one hour. Once a token expires, you can go back an generate a new access token and plug it into the environment as demonstrated above.
-
-## Send an API call
-
-* Choose an API call.
-* Hit the `Send` button.
-
-🚩 Disclaimer
-We're excited you're exploring the Duo MSP API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
-While designed to be as user-friendly and self-service as possible, we acknowledge that users may have questions or face challenges. We encourage you to explore, learn, and troubleshoot independently, as our team's capacity to offer support is currently limited. We also promote a community-driven approach, inviting users of the workspace to share their enhancements, insights, and knowledge with others in the MSP community.
-Thank you for your understanding and collaboration. We hope this workspace significantly contributes to the advancement of your Duo operations.
+Thank you for your understanding and collaboration. I hope this workspace significantly contributes to the advancement of your Duo operations.
 
 
 
