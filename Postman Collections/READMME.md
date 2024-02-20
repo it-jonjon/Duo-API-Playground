@@ -4,8 +4,9 @@
 
 ## Prerequisites
 
-* Sign up for a free [Postman]([https://www.getpostman.com/apps](https://www.postman.com/)) account if necessary
+* Sign up for a free [Postman](https://www.postman.com/) account if necessary. 
 * Download and install the [Postman Client](https://www.getpostman.com/apps).
+* Create a [Workspace] (https://learning.postman.com/docs/getting-started/first-steps/creating-your-first-workspace/)in Postman
 * Import the [Cisco Secure Access Postman Environment](https://github.com/CiscoDevNet/cloud-security/blob/master/Cisco%20Secure%20Access/PostmanExamples/Cisco%20Secure%20Access.postman_environment.json) JSON file. Copy the Cisco Secure Access Postman environment file to your local system.
 * Import the [Cisco Secure Access Postman Collection](https://github.com/CiscoDevNet/cloud-security/blob/master/Cisco%20Secure%20Access/PostmanExamples/Cisco%20Secure%20Access.postman_collection.json) JSON file. Copy the Cisco Secure Access Postman collection file to your local system.
 * Select the `Cisco Secure Access` collection.
