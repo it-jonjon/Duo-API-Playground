@@ -9,7 +9,7 @@ You don't need to be an expert in Duo or APIs to make the most of this workspace
 * [Auth API](https://duo.com/docs/authapi)
 
 
-🚀 Use Cases
+## 🚀 Use Cases
 
 This workspace is organized into different collections tailored for specific use cases:
 * Duo Accounts API: Enables customers to programmatically create, delete, and manage individual Duo customer accounts. New Duo accounts created using the Accounts API are subaccounts of the account where the Accounts API application exists, creating a "parent" and "child" account relationship.
@@ -21,6 +21,32 @@ This workspace is organized into different collections tailored for specific use
 * Duo Administrative Tasks: Consists of various request combinations for tasks such as retrieving bypassed users across child accounts, assigning policies en masse, or pulling a Duo usage cost report.
 
 NOTE: Each collection has unique configuration and paramater requirements. For detailed guidance on setup and usage, please consult the relevant collection specific documentation.
+
+## Prerequisites
+
+* Sign up for a free [Postman](https://www.postman.com/) account if necessary. 
+* Download and install the [Postman Client](https://www.getpostman.com/apps).
+* Create a [Workspace] (https://learning.postman.com/docs/getting-started/first-steps/creating-your-first-workspace/)in Postman
+
+* 
+* Import the [Cisco Secure Access Postman Environment](https://github.com/CiscoDevNet/cloud-security/blob/master/Cisco%20Secure%20Access/PostmanExamples/Cisco%20Secure%20Access.postman_environment.json) JSON file. Copy the Cisco Secure Access Postman environment file to your local system.
+* Import the [Cisco Secure Access Postman Collection](https://github.com/CiscoDevNet/cloud-security/blob/master/Cisco%20Secure%20Access/PostmanExamples/Cisco%20Secure%20Access.postman_collection.json) JSON file. Copy the Cisco Secure Access Postman collection file to your local system.
+* Select the `Cisco Secure Access` collection.
+* Select the `Cisco Secure Access` environment from the environment drop down list.
+* Locate the `1. Auth - Start Here` folder in the Postman collection.
+* Click on the `Get Access Token` endpoint. Under Authorization, click on `Type` and select `Basic Auth` ![image](https://user-images.githubusercontent.com/11685750/163167297-d3ea0103-3711-42c8-81e9-2374f093584e.png)
+* Enter your API key and API secret in the `Username` and `Password` fields respectively:
+![image](https://user-images.githubusercontent.com/11685750/163173840-a9c399ae-929f-4891-b298-b9321a12f023.png)
+* Now generate an API access token:
+  1. Hit `Send` to generate a Cisco Secure Access API access token.
+  1. Add your new access token token to the `AccessToken` variable in the `Cisco Secure Access` Postman environment.
+
+**Note:** Cloud Security API access tokens are valid for up to one hour. Once a token expires, you can go back an generate a new access token and plug it into the environment as demonstrated above.
+
+## Send an API call
+
+* Choose an API call.
+* Hit the `Send` button.
 
 🚩 Disclaimer
 We're excited you're exploring the Duo MSP API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
