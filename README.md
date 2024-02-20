@@ -1,8 +1,7 @@
 # Duo-MSP-API-Playground
 
-The Duo MSP API Playground is a centralized workspace for managing and interacting with Duo client accounts through the power of the Duo API. This worskspace is equipped with a variety of ready-to-use API requests to help streamline a range of Duo tasks, such as account creation, application management, data retrieval, policy creation, log retrieval, and more.
-You don't need to be an expert in Duo or APIs to make the most of this workspace. However, a basic understanding of technical concepts is beneficial. If you encounter any uncertainties or wish to deepen your knowledge about specific API requests, parameters, rate limiting, etc., the Duo API documentation is your best resource.
-Our aim is to furnish partners with tools and resourcess to help enhance their Duo operations, and scale and expand their Duo usage.
+The Duo MSP API Playground is a centralized Postman workspace for managing and interacting with Duo client accounts through the power of the Duo API. It is equipped with a variety of ready-to-use API requests and collections to help streamline a range of Duo tasks, such as account creation, application management, data retrieval, policy creation, log retrieval, and more.
+You don't need to be an expert in Duo or APIs to make the most of this workspace. However, a basic understanding of Duo concepts is beneficial. If you encounter any uncertainties or wish to deepen your knowledge about specific API requests, parameters, rate limiting, etc., the Duo API documentation is your best resource. Our aim is to furnish partners with tools and resourcess to help enhance their Duo operations, and scale and expand their Duo usage.
 
 * [Admin API](https://duo.com/docs/adminapi)
 * [Accounts API](https://duo.com/docs/accountsapi)
@@ -13,7 +12,7 @@ Our aim is to furnish partners with tools and resourcess to help enhance their D
 🚀 Use Cases
 
 This workspace is organized into different collections tailored for specific use cases:
-* Duo Accounts API: Consists of 'Create Account', 'Delete Account', and 'Retrieve Accounts' requests. The 'Retrieve Accounts' request is integral for retrieving a list of customer accounts to perform subsequent API queries with other collections.
+* Duo Accounts API: Enables customers to programmatically create, delete, and manage individual Duo customer accounts. New Duo accounts created using the Accounts API are subaccounts of the account where the Accounts API application exists, creating a "parent" and "child" account relationship.
 * Duo Accounts API with Admin API: Used to interact with child accout objects via the Accounts API. You'll be able to fetch data from a number of Duo endpoints, e.g. Users, Groups, Integrations, Policies, Authentication Logs and more.
 * Duo Admin API [Parent]: Facilitates interaction with the parent accont via the Admin API.
 * Duo Admin API [Child]: Faciliates interaction with a specific Duo child account via the Admin API.
