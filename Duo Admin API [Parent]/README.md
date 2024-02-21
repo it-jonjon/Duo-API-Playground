@@ -1,6 +1,8 @@
 This collection is designed to interact with the MSP parent account via the Duo Admin API. The API has methods for creating, retrieving, updating, and deleting the core objects in Duo's system: users, phones, hardware tokens, admins, and integrations.
 If you are unfamiliar with the Duo Admin API, its endpoints, and any of the required parameters, please refer to the corresponding Duo Admin API section in the documentation.
 
+NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
+
 ## 🚀 Getting started with this collection
 
 1. **Login to your Duo Admin Panel**, click Applications > Protect an Application and locate the entry for Admin API in the applications list. Click Protect to the far-right to configure the application and make note of your integration key, secret key, and API hostname.
