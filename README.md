@@ -12,8 +12,8 @@ You don't need to be an expert in Duo or APIs to make the most of this workspace
 ## 🚀 Use Cases
 
 This workspace is organized into different collections tailored for specific use cases:
-* Duo Accounts API: Enables customers to programmatically create, delete, and manage individual Duo customer accounts. New Duo accounts created using the Accounts API are subaccounts of the account where the Accounts API application exists, creating a "parent" and "child" account relationship.
-* Duo Accounts API with Admin API: Used to interact with child accout objects via the Accounts API. You'll be able to fetch data from a number of Duo endpoints, e.g. Users, Groups, Integrations, Policies, Authentication Logs and more.
+* Duo Accounts API: Enables multi-tenant Duo customers to programmatically create, delete, and manage individual Duo customer accounts. New Duo accounts created using the Accounts API are subaccounts of the account where the Accounts API application exists, creating a "parent" and "child" account relationship.
+* Duo Accounts API with Admin API: Enables multi-tenant Duo customers to interact with child accout objects via the Accounts API. You'll be able to fetch data from a number of Duo endpoints, e.g. Users, Groups, Integrations, Policies, Authentication Logs and more.
 * Duo Admin API [Parent]: Facilitates interaction with the parent accont via the Admin API.
 * Duo Admin API [Child]: Faciliates interaction with a specific Duo child account via the Admin API.
 * Duo Auth API [Child]: Faciliates interaction with a specific Duo child account via the Auth API.
