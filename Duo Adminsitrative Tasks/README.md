@@ -1,6 +1,8 @@
 In this collection, we've included a number of requests to address some common MSP use cases.
 
-## 🚀 Getting familiar with this workspace
+NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
+
+## 🚀 Getting familiar with this Collection
 
 ### Bypass Users
 
