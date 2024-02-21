@@ -35,6 +35,15 @@ Note: If you haven't already, head over the Accounts API collection and set up t
 3. **Each request within the collection has its own parameter and configuration requirements**. Please ensure to define these according to your needs before executing each request. For detailed information on what is required, refer to the documentation provided in the corresponding folder of each section, and/or the relevant Duo API documentation.
 4. **Once you've defined the configuration according to your requirements**, it's best to run the requests in sequential order via the Collection Runner, however, these requests can be run individually. Please note, however, that some requests depend on other requests to be run beforehand. Consult the Request Dependency Matrix for further insight.
 
+## 🔍 Variable Reference
+Below is a list of variables defined and used within this collection. Some variables are dynamically generated during API calls, while others need to be manually configured.
+
+- **`accounts_api_ikey`**: Your Accounts API Integration Key. This needs to be manually set in the global variables.
+- **`accounts_api_skey`**: Your Accounts API Secret Key. This needs to be manually set in the global variables.
+- **`accounts_api_host`**: Your Accounts API Hostname. This needs to be manually set in the global variables.
+- **`newChildAccount`**: Defines the name of the new Duo account.
+- **`usersCsv`**: Defines a CSV list for user enrollment, containing 'username' and 'email' for each entry.
+
 ## ⚙️ Request Dependency Matrix
 This table provides an overview of the various requests within this collection. It outlines each request, its purpose, and any dependent requests it may rely on for successful execution.
 
@@ -54,11 +63,3 @@ This table provides an overview of the various requests within this collection. 
 | Retrieve Enrollment Status| Retrieves user enrollment status (`Retrieve Users > is_enrolled: true or false`) | Create Account, Enroll Users |
 | Assign Enrolled Users to Group | Associate a group with ID `group_id` with the user with ID `user_id`       | Create Account, Retrieve Enrollment Status |
 
-## 🔍 Variable Reference
-Below is a list of variables defined and used within this collection. Some variables are dynamically generated during API calls, while others need to be manually configured.
-
-- **`accounts_api_ikey`**: Your Accounts API Integration Key. This needs to be manually set in the global variables.
-- **`accounts_api_skey`**: Your Accounts API Secret Key. This needs to be manually set in the global variables.
-- **`accounts_api_host`**: Your Accounts API Hostname. This needs to be manually set in the global variables.
-- **`newChildAccount`**: Defines the name of the new Duo account.
-- **`usersCsv`**: Defines a CSV list for user enrollment, containing 'username' and 'email' for each entry.
