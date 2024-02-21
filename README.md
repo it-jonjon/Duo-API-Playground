@@ -27,7 +27,7 @@ NOTE: Each collection has unique configuration and paramater requirements. For d
 1. Sign up for a [Postman](https://www.postman.com/) account if necessary. 
 2. Download and install the [Postman Client](https://www.getpostman.com/apps).
 3. Open Postman and create a new [Workspace](https://learning.postman.com/docs/getting-started/first-steps/creating-your-first-workspace/) in Postman.
-4.  Download each JSON file from the [Postman Collections & Variables](https://github.com/username/repository/tree/main/Postman%20Collections%20%26%20Variables) folder in Github.
+4.  Download each JSON file from the [Postman Collections & Variables](https://[github.com/username/repository/tree/main/Postman%20Collections%20%26%20Variables](https://github.com/it-jonjon/Duo-API-Playground/tree/main/Postman%20Collections%20%26%20Variables)) folder in Github.
       * If you would like to avoid downloading each JSON file individually, naviagate to Home page and download the entire repository
 5. Import each collection JSON file and the global variables JSON file into Postman.
 7. Refer to the collection specific documentation in Postman for next steps.
