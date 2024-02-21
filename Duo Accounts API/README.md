@@ -1,4 +1,4 @@
-# Duo Accounts API Collection
+# Duo Accounts API
 
 This collection is designed to interact with the Duo Accounts API. The Accounts API allows a Duo parent account administrator to create, manage, and delete Duo child accounts.
 
