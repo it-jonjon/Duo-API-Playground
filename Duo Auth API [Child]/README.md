@@ -1,5 +1,7 @@
 This collection is designed to interact with the Duo Auth API. The Duo Auth API is a low-level, RESTful API for adding strong two-factor authentication to your website or application, and can be used to perform a variety of connectivity and authentication tests.
 
+NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
+
 ## 🚀 Getting started with this collection
 
 1. **In the Duo Auth API [Child] collection**, go to the variables tab and enter the desired child account's name in the `child_account_name` variable field. This name must match exactly as it appears in the Duo Admin Panel. To confirm the correct account name, you can use the 'Retrieve Accounts' request in the Duo Accounts API collection, which provides a list of child accounts and their names.
