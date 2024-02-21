@@ -2,6 +2,8 @@
 
 This collection is designed to interact with the Duo Accounts API. The Accounts API allows a Duo parent account administrator to create, manage, and delete Duo child accounts.
 
+### NOTE: Before referring to steps below please see [Prerequisites](webexteams://im?space=ec1f82f0-58bf-11ee-baae-73b247b43cdc&message=6a6c92f0-d0c1-11ee-8775-9b8b882bafa1) 
+
 ## 🚀 Getting started with this collection
 
 **Step 1:** Login to your Duo Admin Panel as an Owner on the parent account, click **Applications > Protect an Application** and locate the entry for **Accounts API** in the applications list. Click **Protect** to the far-right to configure the application and make note of your integration key, secret key, and API hostname.
