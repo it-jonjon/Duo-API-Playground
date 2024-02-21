@@ -1,5 +1,7 @@
 This collection enables you to directly manage a specific Duo child account beneath your Duo MSP parent tenant via Duo Admin API. It offers methods to create, retrieve, update, and delete core Duo components such as users, phones, hardware tokens, admins, integrations, logs, and more.
 
+### NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
+
 ## 🚀 Getting started with this collection
 
 **Step 1:** In the Duo Admin API [Child] collection, go to the variables tab and enter the desired child account's name in the `child_account_name` variable field. This name must match exactly as it appears in the Duo Admin Panel. To confirm the correct account name, you can use the 'Retrieve Accounts' request in the Duo Accounts API collection, which provides a list of child accounts and their names.
