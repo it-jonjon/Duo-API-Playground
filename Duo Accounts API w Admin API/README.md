@@ -11,6 +11,8 @@ In this collection, we've designed a workflow that iterates over your complete l
 - Users with Authentication Attempts
 - Telephony Credits Used Reports
 
+### NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
+
 ## 🚀 Getting started with this collection
 **Step 1**: (If necessary): Refer to the Duo Accounts API collection, and ensure the Accounts API request credentials have been populated in the global variables.
 
