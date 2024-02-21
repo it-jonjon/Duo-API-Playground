@@ -2,7 +2,7 @@
 
 This collection is designed to interact with the Duo Accounts API. The Accounts API allows a Duo parent account administrator to create, manage, and delete Duo child accounts.
 
-### NOTE: Before referring to steps below please see [Postman Collections & Variables](https://github.com/it-jonjon/Duo-API-Playground/tree/2144d8871a1fa10a760bcfcecc7bf7d1641ad2c6/Postman%20Collections%20%26%20Variables).
+### NOTE: Before referring to steps below please see [Postman Collections & Variables](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
 
 ## 🚀 Getting started with this collection
 
