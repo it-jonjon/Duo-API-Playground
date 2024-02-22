@@ -31,7 +31,7 @@ NOTE: Each collection has unique configuration and parameter requirements. For d
 4.  Download each collection JSON file and the global variables file from the [Postman Collections & Variables](https://github.com/it-jonjon/Duo-API-Playground/tree/2144d8871a1fa10a760bcfcecc7bf7d1641ad2c6/Postman%20Collections%20%26%20Variables) folder in this repository.
       * If you would like to avoid downloading each JSON file individually, naviagate to Duo API Playground main page and [download the entire repository](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives)
 5. Import each collection JSON file and the global variables JSON file into Postman. [Import data into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) 
-7. Head back over to Postman and refer to the collection specific documentation in Postman for next steps.
+6. Refer to the collection specific documentation in Postman for next steps.
 
 ## 🚩 Disclaimer
 I'm  excited you're exploring the Duo API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
