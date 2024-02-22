@@ -1,3 +1,5 @@
+# Duo Adminstrative Tasks
+
 In this collection, we've included a number of requests to address some common MSP use cases.
 
 NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
