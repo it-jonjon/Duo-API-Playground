@@ -1,3 +1,5 @@
+# Duo Admin API [Child]
+
 This collection enables you to directly manage a specific Duo child account beneath your Duo MSP parent tenant via Duo Admin API. It offers methods to create, retrieve, update, and delete core Duo components such as users, phones, hardware tokens, admins, integrations, logs, and more.
 
 NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
