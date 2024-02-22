@@ -1,3 +1,5 @@
+# Duo Auth API [Child]
+
 This collection is designed to interact with the Duo Auth API. The Duo Auth API is a low-level, RESTful API for adding strong two-factor authentication to your website or application, and can be used to perform a variety of connectivity and authentication tests.
 
 NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
