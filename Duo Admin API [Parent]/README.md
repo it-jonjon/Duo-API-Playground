@@ -1,7 +1,7 @@
 # Duo Admin API [Parent]
 
 This collection is designed to interact with the MSP parent account via the Duo Admin API. The API has methods for creating, retrieving, updating, and deleting the core objects in Duo's system: users, phones, hardware tokens, admins, and integrations.
-If you are unfamiliar with the Duo Admin API, its endpoints, and any of the required parameters, please refer to the corresponding Duo Admin API section in the documentation.
+If you are unfamiliar with the Duo Admin API, its endpoints, and any of the required parameters, please refer to the corresponding Duo Admin API section in the documentation. Although designed for a parent Duo account to work within the capacity of this workspace, this collection can be used to make API calls to any Duo account assuming the Admin API is created and the Admin API request variables are populated. 
 
 NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
 
