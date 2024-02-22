@@ -1,3 +1,5 @@
+# Duo Onboarding
+
 This collection is designed to help perform some of the initial onboarding processes for a new Duo client account. The collection includes requests for creating an account, updating settings, creating integrations, creating and applying policies, enrolling users, and more. For more insight into the specific requirements and usage of each collection of requests, please refer to documentation found within each folder.
 
 NOTE: Before referring to steps below please see [Prerequisites](https://github.com/it-jonjon/Duo-API-Playground/blob/main/README.md#prerequisites).
