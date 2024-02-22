@@ -1,3 +1,4 @@
+# Duo Accounts API w/ Admin API
 
 In this collection, we've designed a workflow that iterates over your complete list of child accounts (utilizing the `duoChildAccounts` variable) to retrieve data from the following Duo endpoints, and more.
 - Users
