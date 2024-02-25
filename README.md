@@ -1,5 +1,7 @@
 # Duo-API-Playground
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/it-jonjon/Duo-API-Playground) [![Run in Cisco Cloud IDE](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-runable-icon.svg)](https://developer.cisco.com/codeexchange/devenv/it-jonjon/Duo-API-Playground/)
+
 The Duo API Playground is a centralized [Postman](https://postman.com) workspace for managing and interacting with Duo accounts through the power of the Duo API. It is equipped with a variety of ready-to-use API requests and collections to help streamline a range of Duo tasks, such as account creation, application management, data retrieval, policy creation, log retrieval, and more.
 You don't need to be an expert in Duo or APIs to make the most of this workspace. However, a basic understanding of Duo concepts is beneficial. If you encounter any uncertainties or wish to deepen your knowledge about specific API requests, parameters, rate limiting, etc., the Duo API documentation is your best resource. The aim is to furnish Cisco Duo customers and partners with tools and resourcess to help enhance their Duo operations, and scale and expand their Duo usage.
 
