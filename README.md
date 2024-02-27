@@ -27,13 +27,25 @@ NOTE: Each collection has unique configuration and parameter requirements. For d
 
 ## Prerequisites
 
-1. Sign up for a [Postman](https://www.postman.com/) account if necessary. 
+1. Sign up for a [Postman](https://www.postman.com/) account if necessary.
 2. Download and install the [Postman Client](https://www.getpostman.com/apps).
 3. Open Postman and create a new [Workspace](https://learning.postman.com/docs/getting-started/first-steps/creating-your-first-workspace/) in Postman.
-4.  Download each collection JSON file and the global variables file from the [Postman Collections & Variables](https://github.com/it-jonjon/Duo-API-Playground/tree/2144d8871a1fa10a760bcfcecc7bf7d1641ad2c6/Postman%20Collections%20%26%20Variables) folder in this repository.
-      * If you would like to avoid downloading each JSON file individually, naviagate to Duo API Playground main page and [download the entire repository](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives)
-5. Import each collection JSON file and the global variables JSON file into Postman. [Import data into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) 
-6. Refer to the collection specific documentation in Postman for next steps.
+4. Download each collection JSON file and the global variables file from the [Postman Collections & Variables](https://github.com/it-jonjon/Duo-API-Playground/tree/2144d8871a1fa10a760bcfcecc7bf7d1641ad2c6/Postman%20Collections%20%26%20Variables) folder in this repository.
+    - Note: If you would like to avoid downloading each JSON file individually, navigate to the Duo API Playground main page and [download the entire repository](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives).
+5. Import each collection JSON file and the global variables JSON file into Postman. [Import data into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/).
+6. Login to your [Duo Admin Panel](https://admin.duosecurity.com/) and create an [Accounts API](https://duo.com/docs/accountsapi#first-steps) and an [Admin API](https://duo.com/docs/adminapi#first-steps) integration.
+    - Note: Enable all available permissions for the Admin API.
+7. Return to Postman and navigate to [Environments > Globals](https://learning.postman.com/docs/sending-requests/variables/variables/#variable-scopes), and populate the following variables with their corresponding values:
+    - `accounts_api_ikey`: Accounts API Integration Key
+    - `accounts_api_skey`: Accounts API Secret Key
+    - `accounts_api_host`: Accounts API API Hostname
+    - `parent_admin_api_ikey`: Admin API Integration Key
+    - `parent_admin_api_skey`: Admin API Secret Key
+    - `parent_admin_api_host`: Admin API API Hostname
+
+
+
+   
 
 ## 🚩 Disclaimer
 I'm  excited you're exploring the Duo API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
