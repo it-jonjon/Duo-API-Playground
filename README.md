@@ -2,7 +2,7 @@
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/it-jonjon/Duo-API-Playground)
 
-[![Duo API Playground](url-to-thumbnail-image)]([https://app.vidcast.io/share/embed/5ed27a58-3a8c-4aa2-8ce3-836fe086ef43](https://app.vidcast.io/share/5ed27a58-3a8c-4aa2-8ce3-836fe086ef43))
+[![Duo API Playground]([url-to-thumbnail-image](https://github.com/it-jonjon/Duo-API-Playground/blob/main/Images/duo_msp_api_image.png))]([https://app.vidcast.io/share/embed/5ed27a58-3a8c-4aa2-8ce3-836fe086ef43](https://app.vidcast.io/share/5ed27a58-3a8c-4aa2-8ce3-836fe086ef43))
 
 
 The Duo API Playground is a centralized [Postman](https://postman.com) workspace for managing and interacting with Duo accounts through the power of the Duo API. It is equipped with a variety of ready-to-use API requests and collections to help streamline a range of Duo tasks, such as account creation, application management, data retrieval, policy creation, log retrieval, and more.
