@@ -49,8 +49,7 @@ NOTE: Each collection has unique configuration and parameter requirements. For d
     - `parent_admin_api_skey`: Admin API Secret Key
     - `parent_admin_api_host`: Admin API API Hostname
 
-
-
+[Watch the video tutorial](https://app.vidcast.io/share/5ed27a58-3a8c-4aa2-8ce3-836fe086ef43)
    
 
 ## 🚩 Disclaimer
