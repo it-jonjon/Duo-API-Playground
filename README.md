@@ -53,10 +53,10 @@ NOTE: Each collection has unique configuration and parameter requirements. For d
    
 
 ## 🚩 Disclaimer
-I'm  excited you're exploring the Duo API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
-While designed to be as user-friendly and self-service as possible, I acknowledge that users may have questions or face challenges. I encourage you to explore, learn, and troubleshoot independently, as our team's capacity to offer support is currently limited. I also promote a community-driven approach, inviting users of the workspace to share their enhancements, insights, and knowledge with others in the MSP and broder Cisco community.
+We're excited you're exploring the Duo API Playground. This tool is intended to be a valuable asset for MSPs and other organizations using Duo in a multi-tenant capacity, facilitating effective API interactions. However, it's important to note that this workspace is offered AS IS. It is not officially supported by Cisco or Duo, and its use is subject to the user's discretion.
+While designed to be as user-friendly and self-service as possible, we acknowledge that users may have questions or face challenges. We encourage you to explore, learn, and troubleshoot independently, as our team's capacity to offer support is currently limited. We also promote a community-driven approach, inviting users of the workspace to share their enhancements, insights, and knowledge with others in the MSP and broder Cisco community.
 
-Thank you for your understanding and collaboration. I hope this workspace significantly contributes to the advancement of your Duo operations.
+Thank you for your understanding and collaboration. We hope this workspace significantly contributes to the advancement of your Duo operations.
 
 
 
